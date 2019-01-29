@@ -1,0 +1,8 @@
+2               Format number of this file
+1               Nr of dust species
+============================================================================
+1.00000      Specific weight in cgs
+0.01000      grain size in micron
+1.00000       dust weighting
+beck      Extension of name of dustkappa_***.inp file
+----------------------------------------------------------------------------

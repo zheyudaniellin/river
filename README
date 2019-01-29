@@ -1,0 +1,9 @@
+RIVER
+- Radmc3d fItting in Visibitilies procEduRe
+
+directory to fit disks by:
+- UVHdf5: read in real data MS files and convert to table of UV
+- radmc3d, radmc3dPy: creating disk models
+- galario: convert disk model images to visibilities
+- emcee: MCMC chi fitting procedure
+

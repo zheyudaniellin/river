@@ -1,0 +1,32 @@
+to execute:
+sbatch set_image_multi.slurm
+
+to check your status:
+squeue -u zdl3gk
+
+to cancel all your jobs:
+scancel -u zdl3gk
+
+to check status of a job (doesn't really work??):
+sstat <job id>
+
+to see details of your job:
+scontrol show job <job id>
+
+the printed results are stored in your **.out file you set in **.slurm
+
+to see some limits and rules for using rivanna
+queues
+
+on number of nodes and processors and regarding your code:
+since radmc3d only codes for several processors and not nodes, 
+you can't use multiple nodes even if you request for many nodes in *.slurm
+
+to check estimate of when pending job will run
+squeue --start -j <jobid>
+
+to see your past jobs:
+sacct
+or in some formats:
+sacct --format=jobID --format=jobname --format=Elapsed --format=state
+

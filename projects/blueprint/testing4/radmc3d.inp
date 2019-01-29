@@ -1,0 +1,15 @@
+alignment_mode = 0
+incl_dust = 1
+incl_lines = 0
+istar_sphere = 0
+itempdecoup = 1
+lines_mode = -1
+mc_scat_maxtauabs = 15
+modified_random_walk = 1
+nphot = 1000000
+nphot_scat = 1000000
+nphot_spec = 100000
+rto_style = 1
+scattering_mode_max = 0
+setthreads = 16
+tgas_eq_tdust = 1
