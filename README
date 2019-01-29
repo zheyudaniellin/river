@@ -7,3 +7,6 @@ directory to fit disks by:
 - galario: convert disk model images to visibilities
 - emcee: MCMC chi fitting procedure
 
+None of the parts of the code is guaranteed to be reliable yet
+
+Daniel Lin
